@@ -1,0 +1,1466 @@
+{
+  "version": "30.1.2",
+  "pages": [
+    {
+      "id": "gZo4gCft9SATAGwjRaSI",
+      "name": "System Context L1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-10",
+          "type": "edge",
+          "parent": "1",
+          "source": "JkCLGJCpe0SzT8OKZ4UH-1",
+          "target": "gVUxBMyXvCSVeOvSo2Ib-7"
+        },
+        {
+          "id": "1dyz0HlH_LseZK1Vuelc-1",
+          "type": "node",
+          "parent": "gVUxBMyXvCSVeOvSo2Ib-10",
+          "label": "讀取產品資訊"
+        },
+        {
+          "id": "JkCLGJCpe0SzT8OKZ4UH-1",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ 報表生成系統\n[混和雲, MVP]",
+          "html": "▶ 報表生成系統<div>[混和雲, MVP]</div>",
+          "metadata": {
+            "link": "data:page/id,p1_T0nVH4TzM054TXMwI"
+          }
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-1",
+          "type": "node",
+          "parent": "1",
+          "label": "使用者",
+          "html": "<span style=\"font-weight: 400;\">使用者</span>"
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "JkCLGJCpe0SzT8OKZ4UH-1",
+          "target": "gVUxBMyXvCSVeOvSo2Ib-1"
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-6",
+          "type": "node",
+          "parent": "gVUxBMyXvCSVeOvSo2Ib-5",
+          "label": "發送每日報表\n[Google Sheet / E-mail]",
+          "html": "發送每日報表<div>[Google Sheet / E-mail]</div>"
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-7",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ PIM 系統\n[外部系統]",
+          "html": "▶ PIM 系統<div>[外部系統]</div>",
+          "metadata": {
+            "link": "data:page/id,SR0Qw8oSTSuIeoxT1y3X"
+          }
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-8",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ POS 系統\n[外部系統]",
+          "html": "▶ POS 系統<div>[外部系統]</div>",
+          "metadata": {
+            "link": "data:page/id,dy4qJZ3212AOcivZXhDY"
+          }
+        },
+        {
+          "id": "gVUxBMyXvCSVeOvSo2Ib-11",
+          "type": "edge",
+          "parent": "1",
+          "source": "JkCLGJCpe0SzT8OKZ4UH-1",
+          "target": "gVUxBMyXvCSVeOvSo2Ib-8"
+        },
+        {
+          "id": "1dyz0HlH_LseZK1Vuelc-2",
+          "type": "node",
+          "parent": "gVUxBMyXvCSVeOvSo2Ib-11",
+          "label": "讀取交易資訊"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-3",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1",
+          "label": "外部系統：產品以外的系統。"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-4",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1",
+          "label": "內部系統：產品本身。"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-11",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1",
+          "label": "角色：與系統互動的人。"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-12",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-13",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1"
+        },
+        {
+          "id": "8wrlpGI0vg5Zjkipm3pT-14",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1"
+        },
+        {
+          "id": "P3WFyqLkdsOW0b5YebOC-2",
+          "type": "node",
+          "parent": "8wrlpGI0vg5Zjkipm3pT-1",
+          "label": "展開符號：單擊方框會有連結到內部的架構圖。"
+        },
+        {
+          "id": "P3WFyqLkdsOW0b5YebOC-1",
+          "type": "node",
+          "parent": "1",
+          "label": "▶"
+        }
+      ]
+    },
+    {
+      "id": "p1_T0nVH4TzM054TXMwI",
+      "name": "報表生成系統 - Container L2",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "aZ5crU1GCXo79h6cJ6QZ-1",
+          "type": "node",
+          "parent": "1",
+          "label": "PIM 系統"
+        },
+        {
+          "id": "aZ5crU1GCXo79h6cJ6QZ-2",
+          "type": "node",
+          "parent": "1",
+          "label": "報表生成系統"
+        },
+        {
+          "id": "aZ5crU1GCXo79h6cJ6QZ-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "aZ5crU1GCXo79h6cJ6QZ-16",
+          "target": "aZ5crU1GCXo79h6cJ6QZ-5"
+        },
+        {
+          "id": "aZ5crU1GCXo79h6cJ6QZ-4",
+          "type": "node",
+          "parent": "aZ5crU1GCXo79h6cJ6QZ-3",
+          "label": "讀取產品資訊"
+        },
+        {
+          "id": "aZ5crU1GCXo79h6cJ6QZ-5",
+          "type": "node",
+          "parent": "1",
+          "label": "Product Database"
+        },
+        {
+          "id": "aZ5crU1GCXo79h6cJ6QZ-16",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ AI Service \n{AI Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"font-weight: 400;\">▶ </span><span style=\"font-weight: 400;\">AI Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將影像轉換成消費者行為\"</span><span style=\"font-weight: 400;\"></span></div></div>",
+          "metadata": {
+            "link": "data:page/id,VvBwQkDHvp9-DnHI4iY2"
+          }
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-1",
+          "type": "node",
+          "parent": "1",
+          "label": "POS 系統"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-6",
+          "target": "t9QgiHobHyJyMDrqZS9h-9"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-4",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-3",
+          "label": "讀取時間資訊"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-9",
+          "type": "node",
+          "parent": "1",
+          "label": "NTP Server",
+          "html": "<span style=\"font-weight: 400;\">NTP Server</span>"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-13",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-14",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-15",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "本圖主區塊：包含完整架構。"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-16",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "非本圖主角：僅包含與本圖交互的元件。"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-17",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "資料庫：儲存資料。\n*灰色為本次 MVP 不實作。",
+          "html": "資料庫：儲存資料。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-18",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-19",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-21",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "Container：可獨立部署的執行單元。\n*灰色為本次 MVP 不實作。",
+          "html": "Container：可獨立部署的執行單元。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "JhZ7f0Sj4iP-C_liCLhN-1",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "JhZ7f0Sj4iP-C_liCLhN-3",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13"
+        },
+        {
+          "id": "JhZ7f0Sj4iP-C_liCLhN-4",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "角色：與系統互動的人。\n*灰色為本次 MVP 不實作。",
+          "html": "角色：與系統互動的人。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "fLhGyjhuGX1BK3NJmdVN-1",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "展開符號：單擊方框會有連結到內部的架構圖。"
+        },
+        {
+          "id": "fLhGyjhuGX1BK3NJmdVN-2",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-13",
+          "label": "▶"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "aZ5crU1GCXo79h6cJ6QZ-16",
+          "target": "1BoBePcNn4yjB9cKM68B-31"
+        },
+        {
+          "id": "t9QgiHobHyJyMDrqZS9h-25",
+          "type": "node",
+          "parent": "t9QgiHobHyJyMDrqZS9h-24",
+          "label": "讀取交易資訊"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-6",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ Video Service \n{AI Team} [地端, MVP]\n\"去識別化影像並錄影\"",
+          "html": "<span style=\"font-weight: 400;\">▶ </span><span style=\"font-weight: 400;\">Video Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[地端, MVP]</span><div><span style=\"font-weight: 400;\">\"去識別化影像並錄影\"</span><span style=\"font-weight: 400;\"></span></div></div>",
+          "metadata": {
+            "link": "data:page/id,NeEAH5ikDNS_TEZoZxl5"
+          }
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-14",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-8",
+          "target": "aZ5crU1GCXo79h6cJ6QZ-16"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-25",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-14",
+          "label": "觸發任務"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-20",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-8",
+          "target": "1BoBePcNn4yjB9cKM68B-11"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-26",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-20",
+          "label": "觸發任務"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-8",
+          "type": "node",
+          "parent": "1",
+          "label": "Orchestration Service \n{Devops Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"font-weight: 400;\">Orchestration Service&nbsp;</span><div><span style=\"font-weight: 400;\">{</span><span style=\"font-weight: 400;\">Devops Team</span><span style=\"font-weight: 400;\">}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將影像轉換成消費者行為\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-9",
+          "type": "node",
+          "parent": "1",
+          "label": "消費者行為資料庫\n{Devops Team} [雲端, MVP]\n\"紀錄消費者的數據\"",
+          "html": "<div>消費者行為資料庫</div><div>{Devops&nbsp;<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Team</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span></div><div>\"紀錄消費者的<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">數據\"</span></div>"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-45",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-11",
+          "target": "1BoBePcNn4yjB9cKM68B-36"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-46",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-45",
+          "label": "發送每日報表\n[Google Sheet / E-mail]",
+          "html": "發送每日報表<div>[Google Sheet / E-mail]</div>"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-11",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ Report Service \n{AI Team} [雲端, MVP]\n\"將消費者行為轉換成事件\n並產生報表給使用者\"",
+          "html": "<span style=\"font-weight: 400;\">▶ </span><span style=\"font-weight: 400;\">Report Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將消費者行為轉換成事件</span></div><div><span style=\"font-weight: 400;\">並產生報表給使用者\"</span><span style=\"font-weight: 400;\"></span></div></div>",
+          "metadata": {
+            "link": "data:page/id,Xczm2TMKL8yjBImXCt5Z"
+          }
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-12",
+          "type": "node",
+          "parent": "1",
+          "label": "影像資料庫 - GCS\n{Devops Team} [雲端, MVP]\n\"透過公網儲存影片\"",
+          "html": "<div>影像資料庫 - GCS</div><div>{Devops&nbsp;<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Team</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span></div><div>\"透過公網儲存影片<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">\"</span></div>"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "aZ5crU1GCXo79h6cJ6QZ-16",
+          "target": "1BoBePcNn4yjB9cKM68B-12"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-27",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-13",
+          "label": "讀取圖片 / 影片"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-15",
+          "type": "edge",
+          "parent": "1",
+          "source": "aZ5crU1GCXo79h6cJ6QZ-16",
+          "target": "1BoBePcNn4yjB9cKM68B-9"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-33",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-15",
+          "label": "儲存消費者行為"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-17",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-11",
+          "target": "1BoBePcNn4yjB9cKM68B-9"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-32",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-17",
+          "label": "讀取消費者與地圖數據"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-12",
+          "target": "1BoBePcNn4yjB9cKM68B-8"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-29",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-18",
+          "label": "告知影像上傳完畢"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-19",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-6",
+          "target": "1BoBePcNn4yjB9cKM68B-12"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-28",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-19",
+          "label": "儲存影像 / 影片"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-31",
+          "type": "node",
+          "parent": "1",
+          "label": "POS Database"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-34",
+          "type": "node",
+          "parent": "1",
+          "label": "開發者"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-47",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-35",
+          "target": "1BoBePcNn4yjB9cKM68B-6"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-48",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-47",
+          "label": "手動紀錄\n攝影機資訊",
+          "html": "手動紀錄<div>攝影機資訊</div>"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-35",
+          "type": "node",
+          "parent": "1",
+          "label": "開發者"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-36",
+          "type": "node",
+          "parent": "1",
+          "label": "使用者"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-37",
+          "type": "edge",
+          "parent": "1",
+          "source": "1BoBePcNn4yjB9cKM68B-34",
+          "target": "1BoBePcNn4yjB9cKM68B-9"
+        },
+        {
+          "id": "1BoBePcNn4yjB9cKM68B-38",
+          "type": "node",
+          "parent": "1BoBePcNn4yjB9cKM68B-37",
+          "label": "手動紀錄 Zone \n與地圖資訊",
+          "html": "手動紀錄 Zone&nbsp;<div>與地圖資訊</div>"
+        }
+      ]
+    },
+    {
+      "id": "SR0Qw8oSTSuIeoxT1y3X",
+      "name": "PIM 系統 - Container L2",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "JYqQJXsFHxgfJ-fv2k1Y-1",
+          "type": "node",
+          "parent": "1",
+          "label": "PIM 系統"
+        },
+        {
+          "id": "JYqQJXsFHxgfJ-fv2k1Y-3",
+          "type": "node",
+          "parent": "1",
+          "label": "報表生成系統"
+        },
+        {
+          "id": "JYqQJXsFHxgfJ-fv2k1Y-9",
+          "type": "edge",
+          "parent": "1",
+          "source": "fg30UTh0LgmF4WZDZYD3-1",
+          "target": "NM47PIeXZo_CVUXmV-Am-1"
+        },
+        {
+          "id": "JYqQJXsFHxgfJ-fv2k1Y-10",
+          "type": "node",
+          "parent": "JYqQJXsFHxgfJ-fv2k1Y-9",
+          "label": "讀取產品資訊"
+        },
+        {
+          "id": "NM47PIeXZo_CVUXmV-Am-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Product Database"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-2",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-3",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "本圖主區塊：包含完整架構。"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-4",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "非本圖主角：僅包含與本圖交互的元件。"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-5",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "資料庫：儲存資料。\n*灰色為本次 MVP 不實作。",
+          "html": "資料庫：儲存資料。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-6",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-7",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-8",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "Container：可獨立部署的執行單元。\n*灰色為本次 MVP 不實作。",
+          "html": "Container：可獨立部署的執行單元。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-9",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-10",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-11",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "角色：與系統互動的人。\n*灰色為本次 MVP 不實作。",
+          "html": "角色：與系統互動的人。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-12",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "展開符號：單擊方框會有連結到內部的架構圖。"
+        },
+        {
+          "id": "40bJGRs-C6flYDgQBWsO-13",
+          "type": "node",
+          "parent": "40bJGRs-C6flYDgQBWsO-1",
+          "label": "▶"
+        },
+        {
+          "id": "fg30UTh0LgmF4WZDZYD3-1",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ AI Service \n{AI Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"font-weight: 400;\">▶ </span><span style=\"font-weight: 400;\">AI Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將影像轉換成消費者行為\"</span><span style=\"font-weight: 400;\"></span></div></div>",
+          "metadata": {
+            "link": "data:page/id,VvBwQkDHvp9-DnHI4iY2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dy4qJZ3212AOcivZXhDY",
+      "name": "POS 系統 - Container L2",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-1",
+          "type": "node",
+          "parent": "1",
+          "label": "POS 系統"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-2",
+          "type": "node",
+          "parent": "1",
+          "label": "報表生成系統"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "trc8JsUoAVBVr4DNIJTG-1",
+          "target": "KIvrwGi9XY4oMpyweD1C-9"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-4",
+          "type": "node",
+          "parent": "KIvrwGi9XY4oMpyweD1C-3",
+          "label": "讀取時間資訊"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-6",
+          "type": "edge",
+          "parent": "1",
+          "source": "KIvrwGi9XY4oMpyweD1C-8",
+          "target": "KIvrwGi9XY4oMpyweD1C-9"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-7",
+          "type": "node",
+          "parent": "KIvrwGi9XY4oMpyweD1C-6",
+          "label": "讀取時間資訊"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-8",
+          "type": "node",
+          "parent": "1",
+          "label": "POS Server",
+          "html": "<span style=\"font-weight: 400;\">POS Server</span>"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-9",
+          "type": "node",
+          "parent": "1",
+          "label": "NTP Server",
+          "html": "<span style=\"font-weight: 400;\">NTP Server</span>"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-10",
+          "type": "node",
+          "parent": "1",
+          "label": "POS Database"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-11",
+          "type": "edge",
+          "parent": "1",
+          "source": "KIvrwGi9XY4oMpyweD1C-8",
+          "target": "KIvrwGi9XY4oMpyweD1C-10"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-12",
+          "type": "node",
+          "parent": "KIvrwGi9XY4oMpyweD1C-11",
+          "label": "儲存交易資訊"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "5OrCYRd464AgjY5lWPOP-1",
+          "target": "KIvrwGi9XY4oMpyweD1C-10"
+        },
+        {
+          "id": "KIvrwGi9XY4oMpyweD1C-25",
+          "type": "node",
+          "parent": "KIvrwGi9XY4oMpyweD1C-24",
+          "label": "讀取交易資訊"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-2",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-3",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "本圖主區塊：包含完整架構。"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-4",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "非本圖主角：僅包含與本圖交互的元件。"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-5",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "資料庫：儲存資料。\n*灰色為本次 MVP 不實作。",
+          "html": "資料庫：儲存資料。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-6",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-7",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-8",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "Container：可獨立部署的執行單元。\n*灰色為本次 MVP 不實作。",
+          "html": "Container：可獨立部署的執行單元。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-9",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-10",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-11",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "角色：與系統互動的人。\n*灰色為本次 MVP 不實作。",
+          "html": "角色：與系統互動的人。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-12",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "展開符號：單擊方框會有連結到內部的架構圖。"
+        },
+        {
+          "id": "jHkjMZPBcudZ5-Nk4vHk-13",
+          "type": "node",
+          "parent": "jHkjMZPBcudZ5-Nk4vHk-1",
+          "label": "▶"
+        },
+        {
+          "id": "5OrCYRd464AgjY5lWPOP-1",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ AI Service \n{AI Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"font-weight: 400;\">▶ </span><span style=\"font-weight: 400;\">AI Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將影像轉換成消費者行為\"</span><span style=\"font-weight: 400;\"></span></div></div>",
+          "metadata": {
+            "link": "data:page/id,VvBwQkDHvp9-DnHI4iY2"
+          }
+        },
+        {
+          "id": "trc8JsUoAVBVr4DNIJTG-1",
+          "type": "node",
+          "parent": "1",
+          "label": "▶ Video Service \n{AI Team} [地端, MVP]\n\"去識別化影像並錄影\"",
+          "html": "<span style=\"font-weight: 400;\">▶ </span><span style=\"font-weight: 400;\">Video Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[地端, MVP]</span><div><span style=\"font-weight: 400;\">\"去識別化影像並錄影\"</span><span style=\"font-weight: 400;\"></span></div></div>",
+          "metadata": {
+            "link": "data:page/id,NeEAH5ikDNS_TEZoZxl5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "NeEAH5ikDNS_TEZoZxl5",
+      "name": "Video Service - Components L3",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "wr3OADD9TNCVGqZEgndk-1",
+          "type": "node",
+          "parent": "1",
+          "label": "報表生成系統"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Video Service \n{AI Team} [地端, MVP]\n\"去識別化影像並錄影\"",
+          "html": "<span style=\"font-weight: 400;\">Video Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[地端, MVP]</span><div><span style=\"font-weight: 400;\">\"去識別化影像並錄影\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-7",
+          "type": "edge",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "source": "dDva3SvPEJCdltp8fbnR-1",
+          "target": "HOGy9V_Wy2XT1B5NUUqB-4"
+        },
+        {
+          "id": "dDva3SvPEJCdltp8fbnR-1",
+          "type": "node",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "label": "Cron\n{AI Team} [MVP]\n\"固定時間觸發整個 Video Service\"",
+          "html": "Cron<br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[MVP]</span><div><span style=\"font-weight: 400;\">\"固定時間觸發整個 Video Service\"</span></div></div>"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-6",
+          "type": "edge",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "source": "HOGy9V_Wy2XT1B5NUUqB-4",
+          "target": "HOGy9V_Wy2XT1B5NUUqB-3"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-4",
+          "type": "node",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "label": "Sync Time\n{AI Team} [MVP]\n\"同步地端主機時間\"",
+          "html": "Sync Time<br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[MVP]</span><div><span style=\"font-weight: 400;\">\"同步地端主機時間\"</span></div></div>"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-5",
+          "type": "edge",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "source": "HOGy9V_Wy2XT1B5NUUqB-3",
+          "target": "HOGy9V_Wy2XT1B5NUUqB-2"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-3",
+          "type": "node",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "label": "De-Identification\n{AI Team} [Future]\n\"去除影片中個人資訊\"",
+          "html": "De-Identification<br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;\">Future</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: 400;\">]</span></div><div style=\"font-weight: 700;\"><div><span style=\"font-weight: 400;\">\"去除影片中個人資訊\"</span></div></div>"
+        },
+        {
+          "id": "HOGy9V_Wy2XT1B5NUUqB-2",
+          "type": "node",
+          "parent": "HOGy9V_Wy2XT1B5NUUqB-1",
+          "label": "Video Ingestion\n{AI Team} [MVP]\n\"收集影像 / 影像\"",
+          "html": "Video Ingestion<br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[MVP]</span><div><span style=\"font-weight: 400;\">\"收集影像 / 影像\"</span></div></div>"
+        },
+        {
+          "id": "dcVD-mF0yYaHzcL2VVjb-1",
+          "type": "node",
+          "parent": "1",
+          "label": "影像資料庫 - GCS\n{Devops Team} [雲端, MVP]\n\"透過公網儲存影片\"",
+          "html": "<div>影像資料庫 - GCS</div><div>{Devops&nbsp;<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Team</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span></div><div>\"透過公網儲存影片<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">\"</span></div>"
+        },
+        {
+          "id": "X8z8tixefQ9rlDGVVKgJ-1",
+          "type": "edge",
+          "parent": "1",
+          "source": "HOGy9V_Wy2XT1B5NUUqB-2"
+        },
+        {
+          "id": "X8z8tixefQ9rlDGVVKgJ-2",
+          "type": "node",
+          "parent": "X8z8tixefQ9rlDGVVKgJ-1",
+          "label": "儲存影像 / 影片"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-2",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-3",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "本圖主區塊：包含完整架構。"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-4",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "非本圖主角：僅包含與本圖交互的元件。"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-5",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "資料庫：儲存資料。"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-6",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-7",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-8",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "Container：可獨立部署的執行單元。"
+        },
+        {
+          "id": "tA2us1QwSFFutANJ-BUN-9",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "hImrCRt5HGQjovfX_JZb-14",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "Component \n{Owner} [Tag]\n\"描述\"",
+          "html": "Component <br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{Owner} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span></div></div>"
+        },
+        {
+          "id": "hImrCRt5HGQjovfX_JZb-15",
+          "type": "node",
+          "parent": "tA2us1QwSFFutANJ-BUN-1",
+          "label": "Component：負責特定業務能力的邏輯模組。\n*灰色為本次 MVP 不實作。",
+          "html": "<span style=\"text-align: center;\">Component</span>：負責特定業務能力的邏輯模組。<div>*灰色為本次 MVP 不實作。</div>"
+        },
+        {
+          "id": "qXCz4IT0WKeXAZlRQbhm-1",
+          "type": "node",
+          "parent": "1",
+          "label": "POS 系統"
+        },
+        {
+          "id": "S8c0JFdfj1uIdYn2co71-1",
+          "type": "edge",
+          "parent": "1",
+          "source": "HOGy9V_Wy2XT1B5NUUqB-4",
+          "target": "S8c0JFdfj1uIdYn2co71-3"
+        },
+        {
+          "id": "S8c0JFdfj1uIdYn2co71-2",
+          "type": "node",
+          "parent": "S8c0JFdfj1uIdYn2co71-1",
+          "label": "讀取時間資訊"
+        },
+        {
+          "id": "S8c0JFdfj1uIdYn2co71-3",
+          "type": "node",
+          "parent": "1",
+          "label": "NTP Server",
+          "html": "<span style=\"font-weight: 400;\">NTP Server</span>"
+        }
+      ]
+    },
+    {
+      "id": "VvBwQkDHvp9-DnHI4iY2",
+      "name": "AI Service - Components L3",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "XBvnb1S9e9AprQLlgYYS-1",
+          "type": "node",
+          "parent": "1",
+          "label": "報表生成系統"
+        },
+        {
+          "id": "UsAu7Bkd_8FVWv5a4kFR-1",
+          "type": "node",
+          "parent": "1",
+          "label": "AI Service \n{AI Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"font-weight: 400;\">AI Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將影像轉換成消費者行為\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "ntnQu4VlsHYhdsxeZyeD-1",
+          "type": "node",
+          "parent": "UsAu7Bkd_8FVWv5a4kFR-1",
+          "label": "Detection\n{AI Team} [MVP]\n\"固定時間觸發整個 Video Service\"",
+          "html": "Detection<br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[MVP]</span><div><span style=\"font-weight: 400;\">\"固定時間觸發整個 Video Service\"</span></div></div>"
+        },
+        {
+          "id": "ntnQu4VlsHYhdsxeZyeD-2",
+          "type": "node",
+          "parent": "UsAu7Bkd_8FVWv5a4kFR-1",
+          "label": "VLM Understanding\n{AI Team} [Future]\n\"生成消費者外貌描述\"",
+          "html": "VLM Understanding<br><div style=\"\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[</span>Future<span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">]</span><div style=\"\">\"生成消費者外貌描述\"</div></div>"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-2",
+          "type": "node",
+          "parent": "UsAu7Bkd_8FVWv5a4kFR-1",
+          "label": "Action Recognition\n{AI Team} [Future]\n\"辨識消費者動作\"",
+          "html": "Action Recognition<br><div style=\"\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[</span>Future<span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">]</span><div style=\"\">\"辨識消費者動作\"</div></div>"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-1",
+          "type": "node",
+          "parent": "UsAu7Bkd_8FVWv5a4kFR-1",
+          "label": "ReID\n{AI Team} [Future]\n\"產生消費者特徵向量\"",
+          "html": "ReID<br><div style=\"\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[</span>Future<span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">]</span><div style=\"\">\"產生消費者特徵向量\"</div></div>"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-3",
+          "type": "node",
+          "parent": "UsAu7Bkd_8FVWv5a4kFR-1",
+          "label": "Product Recognition\n{AI Team} [Future]\n\"辨識消費者手持產品\"",
+          "html": "Product Recognition<br><div style=\"\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[</span>Future<span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">]</span><div style=\"\">\"辨識消費者手持產品\"</div></div>"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-20",
+          "type": "edge",
+          "parent": "1",
+          "source": "XgQ_eUNDb-a14-dJh74W-1",
+          "target": "UsAu7Bkd_8FVWv5a4kFR-1"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-21",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-20",
+          "label": "觸發任務"
+        },
+        {
+          "id": "XgQ_eUNDb-a14-dJh74W-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Orchestration Service \n{Devops Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"font-weight: 400;\">Orchestration Service&nbsp;</span><div><span style=\"font-weight: 400;\">{</span><span style=\"font-weight: 400;\">Devops Team</span><span style=\"font-weight: 400;\">}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將影像轉換成消費者行為\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "XgQ_eUNDb-a14-dJh74W-2",
+          "type": "node",
+          "parent": "1",
+          "label": "消費者行為資料庫\n{Devops Team} [雲端, MVP]\n\"紀錄消費者的數據\"",
+          "html": "<div>消費者行為資料庫</div><div>{Devops&nbsp;<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Team</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span></div><div>\"紀錄消費者的<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">數據\"</span></div>"
+        },
+        {
+          "id": "XgQ_eUNDb-a14-dJh74W-3",
+          "type": "node",
+          "parent": "1",
+          "label": "影像資料庫 - GCS\n{Devops Team} [雲端, MVP]\n\"透過公網儲存影片\"",
+          "html": "<div>影像資料庫 - GCS</div><div>{Devops&nbsp;<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Team</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span></div><div>\"透過公網儲存影片<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">\"</span></div>"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-4",
+          "type": "edge",
+          "parent": "1",
+          "source": "ntnQu4VlsHYhdsxeZyeD-1",
+          "target": "XgQ_eUNDb-a14-dJh74W-3"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "ntnQu4VlsHYhdsxeZyeD-2",
+          "target": "XgQ_eUNDb-a14-dJh74W-3"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-6",
+          "type": "edge",
+          "parent": "1",
+          "source": "XKKKFAqrLAG5J4zTH97n-1",
+          "target": "XgQ_eUNDb-a14-dJh74W-3"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-7",
+          "type": "edge",
+          "parent": "1",
+          "source": "XKKKFAqrLAG5J4zTH97n-2",
+          "target": "XgQ_eUNDb-a14-dJh74W-3"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-8",
+          "type": "edge",
+          "parent": "1",
+          "source": "XKKKFAqrLAG5J4zTH97n-3",
+          "target": "XgQ_eUNDb-a14-dJh74W-3"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-9",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-8",
+          "label": "讀取影片"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-10",
+          "type": "edge",
+          "parent": "1",
+          "source": "XKKKFAqrLAG5J4zTH97n-3",
+          "target": "XgQ_eUNDb-a14-dJh74W-2"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-19",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-10",
+          "label": "儲存產品資訊"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-11",
+          "type": "edge",
+          "parent": "1",
+          "source": "ntnQu4VlsHYhdsxeZyeD-1",
+          "target": "XgQ_eUNDb-a14-dJh74W-2"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-15",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-11",
+          "label": "儲存消費者位置\n與唯一身份",
+          "html": "儲存消費者位置<div>與唯一身份</div>"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-12",
+          "type": "edge",
+          "parent": "1",
+          "source": "XKKKFAqrLAG5J4zTH97n-2",
+          "target": "XgQ_eUNDb-a14-dJh74W-2"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-18",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-12",
+          "label": "儲存消費者動作"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "XKKKFAqrLAG5J4zTH97n-1",
+          "target": "XgQ_eUNDb-a14-dJh74W-2"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-17",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-13",
+          "label": "儲存特徵向量"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-14",
+          "type": "edge",
+          "parent": "1",
+          "source": "ntnQu4VlsHYhdsxeZyeD-2",
+          "target": "XgQ_eUNDb-a14-dJh74W-2"
+        },
+        {
+          "id": "XKKKFAqrLAG5J4zTH97n-16",
+          "type": "node",
+          "parent": "XKKKFAqrLAG5J4zTH97n-14",
+          "label": "儲存消費者\n外貌描述",
+          "html": "儲存消費者<div>外貌描述</div>"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-2",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-3",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1",
+          "label": "本圖主區塊：包含完整架構。"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-5",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1",
+          "label": "資料庫：儲存資料。"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-7",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-8",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1",
+          "label": "Container：可獨立部署的執行單元。"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-9",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-10",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1",
+          "label": "Component \n{Owner} [Tag]\n\"描述\"",
+          "html": "Component <br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{Owner} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span></div></div>"
+        },
+        {
+          "id": "EN3I4yJ12hn4wywvedEF-11",
+          "type": "node",
+          "parent": "EN3I4yJ12hn4wywvedEF-1",
+          "label": "Component：負責特定業務能力的邏輯模組。\n*灰色為本次 MVP 不實作。",
+          "html": "<span style=\"text-align: center;\">Component</span>：負責特定業務能力的邏輯模組。<div>*灰色為本次 MVP 不實作。</div>"
+        }
+      ]
+    },
+    {
+      "id": "Xczm2TMKL8yjBImXCt5Z",
+      "name": "Report Service - Components L3",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-8",
+          "type": "node",
+          "parent": "1",
+          "label": "報表生成系統"
+        },
+        {
+          "id": "Is-NKpswvWkJqFqErlJy-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Report Service \n{AI Team} [雲端, MVP]\n\"將消費者行為轉換成事件\n並產生報表給使用者\"",
+          "html": "<span style=\"font-weight: 400;\">Report Service&nbsp;</span><div><span style=\"font-weight: 400;\">{AI Team}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"font-weight: 400;\">\"將消費者行為轉換成事件</span></div><div><span style=\"font-weight: 400;\">並產生報表給使用者\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "xCx6mBxMmU5RgepXK-pU-1",
+          "type": "node",
+          "parent": "Is-NKpswvWkJqFqErlJy-1",
+          "label": "Zone Mapping\n{AI Team} [MVP]\n\"基於消費者與地圖數據生成事件\"",
+          "html": "Zone Mapping<br><div style=\"\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[MVP]</span><div style=\"\">\"基於消費者與地圖數據生成事件\"</div></div>"
+        },
+        {
+          "id": "xCx6mBxMmU5RgepXK-pU-2",
+          "type": "node",
+          "parent": "Is-NKpswvWkJqFqErlJy-1",
+          "label": "Analytics\n{AI Team} [MVP]\n\"基於數據產生報表\"",
+          "html": "Analytics<br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{AI Team} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[MVP]</span><div><span style=\"font-weight: 400;\">\"基於數據產生報表\"</span></div></div>"
+        },
+        {
+          "id": "JW8STD9rVClKs1okmmF0-1",
+          "type": "edge",
+          "parent": "1",
+          "source": "xCx6mBxMmU5RgepXK-pU-2",
+          "target": "JW8STD9rVClKs1okmmF0-3"
+        },
+        {
+          "id": "JW8STD9rVClKs1okmmF0-2",
+          "type": "node",
+          "parent": "JW8STD9rVClKs1okmmF0-1",
+          "label": "發送每日報表\n[Google Sheet / E-mail]",
+          "html": "發送每日報表<div>[Google Sheet / E-mail]</div>"
+        },
+        {
+          "id": "JW8STD9rVClKs1okmmF0-3",
+          "type": "node",
+          "parent": "1",
+          "label": "使用者"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-2",
+          "type": "edge",
+          "parent": "1",
+          "source": "FOxOiFk-NWmzXhnCoYmZ-1",
+          "target": "xCx6mBxMmU5RgepXK-pU-1"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "FOxOiFk-NWmzXhnCoYmZ-1",
+          "target": "xCx6mBxMmU5RgepXK-pU-2"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-14",
+          "type": "node",
+          "parent": "PEZj0CISehhhiB-BqvL0-3",
+          "label": "觸發任務"
+        },
+        {
+          "id": "FOxOiFk-NWmzXhnCoYmZ-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Orchestration Service \n{Devops Team} [雲端, MVP]\n\"將影像轉換成消費者行為\"",
+          "html": "<span style=\"\">Orchestration Service&nbsp;</span><div><span style=\"\">{</span><span style=\"\">Devops Team</span><span style=\"\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span><div><span style=\"\">\"將影像轉換成消費者行為\"</span><span style=\"\"></span></div></div>"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-1",
+          "type": "node",
+          "parent": "1",
+          "label": "消費者行為資料庫\n{Devops Team} [雲端, MVP]\n\"紀錄消費者的數據\"",
+          "html": "<div>消費者行為資料庫</div><div>{Devops&nbsp;<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Team</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">}&nbsp;</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[雲端, MVP]</span></div><div>\"紀錄消費者的<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">數據\"</span></div>"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-4",
+          "type": "edge",
+          "parent": "1",
+          "source": "xCx6mBxMmU5RgepXK-pU-1",
+          "target": "PEZj0CISehhhiB-BqvL0-1"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-6",
+          "type": "node",
+          "parent": "PEZj0CISehhhiB-BqvL0-4",
+          "label": "讀取消費者與地圖數據\n儲存事件",
+          "html": "讀取消費者與地圖數據<div>儲存事件</div>"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "xCx6mBxMmU5RgepXK-pU-2",
+          "target": "PEZj0CISehhhiB-BqvL0-1"
+        },
+        {
+          "id": "PEZj0CISehhhiB-BqvL0-7",
+          "type": "node",
+          "parent": "PEZj0CISehhhiB-BqvL0-5",
+          "label": "讀取事件"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Legend"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-2",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-3",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "本圖主區塊：包含完整架構。"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-5",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "資料庫：儲存資料。"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-7",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-8",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "Container：可獨立部署的執行單元。"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-9",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "P9BfW87Myx6oF2YKG_qS-1",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-9",
+          "label": "Component \n{Owner} [Tag]\n\"描述\"",
+          "html": "Component <br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{Owner} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span></div></div>"
+        },
+        {
+          "id": "P9BfW87Myx6oF2YKG_qS-2",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-9",
+          "label": "Container Name \n{Owner} [Tag]\n\"描述\"",
+          "html": "<span style=\"font-weight: 400;\">Container Name&nbsp;</span><div><span style=\"font-weight: 400;\">{Owner}&nbsp;</span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span><span style=\"font-weight: 400;\"></span></div></div>"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-10",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-11",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "角色：與系統互動的人。"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-15",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "Component \n{Owner} [Tag]\n\"描述\"",
+          "html": "Component <br><div style=\"font-weight: 700;\"><span style=\"font-weight: 400;\">{Owner} </span><span style=\"font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">[Tag]</span><div><span style=\"font-weight: 400;\">\"描述\"</span></div></div>"
+        },
+        {
+          "id": "SCkTUsiYncJEUhGF3FAl-16",
+          "type": "node",
+          "parent": "SCkTUsiYncJEUhGF3FAl-1",
+          "label": "Component：負責特定業務能力的邏輯模組。",
+          "html": "<span style=\"text-align: center;\">Component</span>：負責特定業務能力的邏輯模組。"
+        }
+      ]
+    }
+  ]
+}
