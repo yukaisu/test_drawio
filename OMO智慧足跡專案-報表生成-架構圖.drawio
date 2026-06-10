@@ -816,7 +816,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xczm2TMKL8yjBImXCt5Z" name="Report Service - Components L3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1267" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -891,7 +891,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SCkTUsiYncJEUhGF3FAl-1" parent="1" style="swimlane;" value="Legend" vertex="1">
-          <mxGeometry height="550" width="410" x="180" y="340" as="geometry">
+          <mxGeometry height="450" width="410" x="180" y="340" as="geometry">
             <mxRectangle height="30" width="80" x="230" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
